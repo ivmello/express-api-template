@@ -1,0 +1,24 @@
+{
+  "name": "api-museu-audio",
+  "version": "1.0.0",
+  "description": "API para o Museu do Audio",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "test": "mocha --opts tests/integration/mocha.opts tests/integration/*.js"
+  },
+  "author": "Igor Vieira de Mello",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "supertest": "^3.0.0"
+  }
+}
